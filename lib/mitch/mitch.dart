@@ -1,12 +1,10 @@
-import 'package:flutter/material.dart';
+import "package:flutter/material.dart";
 
 class Mitch extends StatelessWidget {
   const Mitch({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(child: Text("HELLO"),),
-    );
+    return const Placeholder();
   }
 }
