@@ -3,36 +3,11 @@
 // 2. EXPANDED • Flutter Widget of the Day #02
 
 
-// ONE
-
-// import "package:flutter/material.dart";
-// import "package:mitchmadan/mitch/mitch.dart";
-
-// void main() {
-//   runApp(const MyApp());
-// }
-
-// class MyApp extends StatelessWidget {
-//   const MyApp({super.key});
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return MaterialApp(
-//       title: "Bihengoto",
-//       debugShowCheckedModeBanner: false,
-//       home: Mitch(),
-//     );
-//   }
-// }
-
-
-
-// TWO
-
+// 1:
 // import 'package:flutter/material.dart';
 
-// class Mitch extends StatelessWidget {
-//   const Mitch({super.key});
+// class FirstPageMitch extends StatelessWidget {
+//   const FirstPageMitch({super.key});
 
 //   @override
 //   Widget build(BuildContext context) {
@@ -40,28 +15,54 @@
 //       body: Column(
 //         children: [
 //           Container(
-//             height: 300,
-//             color: Colors.blue,
+//             height: 100,
+//             color: Colors.pink,
 //           ),
 
-//           Expanded(
-//             child: Container(
-//               color: Colors.green,
-//             )
+//           Container(
+//             height: 300,
+//             color: Colors.green,
 //           )
-//       ],),
+//         ],
+//       ),
 //     );
 //   }
 // }
 
 
+// 2:
+// import 'package:flutter/material.dart';
 
-// THREE
+// class FirstPageMitch extends StatelessWidget {
+//   const FirstPageMitch({super.key});
 
-// import "package:flutter/material.dart";
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//       body: Column(
+//         children: [
+//           Container(
+//             height: 100,
+//             color: Colors.pink,
+//           ),
 
-// class Mitch extends StatelessWidget {
-//   const Mitch({super.key});
+//           Expanded(
+//             child: Container(
+//               color: Colors.green,
+//             ),
+//           )
+//         ],
+//       ),
+//     );
+//   }
+// }
+
+
+// 3:
+// import 'package:flutter/material.dart';
+
+// class FirstPageMitch extends StatelessWidget {
+//   const FirstPageMitch({super.key});
 
 //   @override
 //   Widget build(BuildContext context) {
@@ -70,25 +71,27 @@
 //         children: [
 //           Expanded(
 //             child: Container(
-//               color: Colors.green,
-//             )),
+//               color: Colors.pink,
+//             ),
+//           ),
 
-//             Expanded(
-//               child: Container(
-//               color: Colors.purple,
-//             ))
-//         ],),
+//           Expanded(
+//             child: Container(
+//               color: Colors.green,
+//             ),
+//           )
+//         ],
+//       ),
 //     );
 //   }
 // }
 
 
-// FOUR
-
+// 4:
 // import 'package:flutter/material.dart';
 
-// class Mitch extends StatelessWidget {
-//   const Mitch({super.key});
+// class FirstPageMitch extends StatelessWidget {
+//   const FirstPageMitch({super.key});
 
 //   @override
 //   Widget build(BuildContext context) {
@@ -98,13 +101,15 @@
 //           Expanded(
 //             flex: 2,
 //             child: Container(
-//               color: Colors.amber,
-//           )),
+//               color: Colors.pink,
+//             ),
+//           ),
 
 //           Expanded(
 //             child: Container(
 //               color: Colors.green,
-//           ))
+//             ),
+//           )
 //         ],
 //       ),
 //     );
@@ -112,33 +117,31 @@
 // }
 
 
-
-// FIVE
-
+// 5:
 // import 'package:flutter/material.dart';
 
-// class Mitch extends StatelessWidget {
-//   const Mitch({super.key});
+// class FirstPageMitch extends StatelessWidget {
+//   const FirstPageMitch({super.key});
 
 //   @override
 //   Widget build(BuildContext context) {
 //     return Scaffold(
-//       body: Column(
+//       body: Row(
 //         children: [
 //           Expanded(
 //             child: Container(
-//               color: Colors.blueAccent,
+//               color: Colors.blue,
 //           )),
 
 //           Expanded(
 //             child: Container(
-//               color: Colors.brown,
+//               color: Colors.pink,
 //           )),
 
 //           Expanded(
 //             child: Container(
-//               color: Colors.blueGrey,
-//           ))
+//               color: Colors.purple,
+//           )),
 //         ],
 //       ),
 //     );
